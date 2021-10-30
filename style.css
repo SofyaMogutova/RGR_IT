@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ /*div{
+     border: 1px;
+     height: 2em;
+ }
+ div:not(:first-child){
+     border-top: none;
+ }*/
+ul{
+    /* list-style: none; 
+    margin: 0; 
+    padding-left: 0;  */
+    height: 100px; 
+    background: #a791ba;
+}
+.style_menu {
+    text-decoration: none;
+    background:#a791ba; 
+    color:#fff;
+    padding:0px 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height:100px;
+    display: block; 
+    border-right: 1px solid #a791ba; 
+    transition: 1s;
+}
+.style_menu:hover{
+    transform: scale(1.1);
+}
+.menu__image{
+    width: 150px;
+}
+.logo {
+    text-align: center;
+    padding-top: 3%;
+    margin-top:0;
+    width: 80px;
+}
+  
+.menu {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    text-align-last: center;
+    margin-right: auto;
+    margin-left: auto;
+}  
+.menu li{
+    flex: 1;
+    display: inline;
+}
+.bg-fon {
+    filter: brightness(40%);
+    width:100%;
+}
+.introduction {
+	position: relative;
+	width: 100%;
+}
+
+h1 {
+	position: absolute;
+	top	: 200px;
+    text-align: center;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+	width: 100%;
+}
+.fon__catalog{
+    width: 100%;
+}
+.text{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 32px;
+    line-height: 1.35;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    color: #a389b9;
+}
+.filterDiv {
+    float: left;
+    background-color: #bfb4c9;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    box-shadow: 0 5px 10px #a791ba;
+    margin: 50px;
+    display: none;
+}
+.image{
+    padding-top: 30px;
+    width: 330px;
+    height: 350px;
+}
+.info__catalog{
+    padding-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.35;
+    letter-spacing: 2px;
+} 
+.cost{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 1.35;
+    letter-spacing: 3px;
+}
+.show {
+    display: block;
+}
+ 
+.card{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: 'Roboto',Arial,sans-serif;;
+}
+  
+.btn:hover {
+    background-color: #ddd;
+}
+  
+.btn.active {
+    margin-left: 20px;
+    background-color: #b6b5b8;
+    color: white;
+}
+.instagram{
+    background-color: #eae4ee;
+    height: 150px;
+}
+.icon{
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+}
+.otziv__team-img{
+    width: 280px;
+}
+.otziv__team{
+    position: absolute;
+    width: 98px;
+    height: 98px;
+}
+.otziv__team--1{
+    top: 100px;
+    left: 500px;
+    transition: 1s; 
+}
+.otziv__team--2{
+    top: 230px;
+    left: 250px;
+    transition: 1s; 
+}
+.otziv__team--3{
+    top: 400px;
+    left: 230px;
+    transition: 1s; 
+}
+.otziv__team--4{
+    top: 550px;
+    left: 470px;
+    transition: 1s; 
+}
+.otziv__team--5{
+    top: 100px;
+    right: 630px;
+    transition: 1s; 
+}
+.otziv__team--6{
+    top: 250px;
+    right: 410px;
+    transition: 1s; 
+}
+.otziv__team--7{
+    top: 430px;
+    right: 360px;
+    transition: 1s; 
+}
+.otziv__team--8{
+    top: 590px;
+    right: 600px;
+    transition: 1s; 
+}
+.otziv__team--1:hover{
+    transform: scale(1.1);
+}
+.otziv__team--2:hover{
+    transform: scale(1.1);
+}
+.otziv__team--3:hover{
+    transform: scale(1.1);
+}
+.otziv__team--4:hover{
+    transform: scale(1.1);
+}
+.otziv__team--5:hover{
+    transform: scale(1.1);
+}
+.otziv__team--6:hover{
+    transform: scale(1.1);
+}
+.otziv__team--7:hover{
+    transform: scale(1.1);
+}
+.otziv__team--8:hover{
+    transform: scale(1.1);
+}
+/* .otziv{
+    width: 800px;
+    margin: 50px auto;
+}
+.otziv1{
+    top: 157px;
+    right: 95px;
+    transition: 1s;  
+}
+.otziv1:hover {
+    transform: scale(1.2);
+}
+.otziv2{
+    padding-right: 250px;
+    transition: 1s;
+}
+.otziv2:hover {
+    transform: scale(1.2);
+}
+.otziv3{
+    padding-right: 250px;
+    transition: 1s;
+}
+.otziv3:hover {
+    transform: scale(1.2);
+}
+.otziv4{
+    display: block;
+    text-align: center;
+    transition: 1s;
+}
+.otziv4:hover {
+    transform: scale(1.2);
+} */
