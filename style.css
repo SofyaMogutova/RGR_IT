@@ -3,17 +3,7 @@
     margin: 0;
     padding: 0;
  }
- /*div{
-     border: 1px;
-     height: 2em;
- }
- div:not(:first-child){
-     border-top: none;
- }*/
 ul{
-    /* list-style: none; 
-    margin: 0; 
-    padding-left: 0;  */
     height: 100px; 
     background: #a791ba;
 }
@@ -227,37 +217,53 @@ h1 {
 .otziv__team--8:hover{
     transform: scale(1.1);
 }
-/* .otziv{
-    width: 800px;
-    margin: 50px auto;
+
+.dostavka{
+    position: absolute;
+    width: 98px;
+    height: 98px;
 }
-.otziv1{
-    top: 157px;
-    right: 95px;
-    transition: 1s;  
+.icon__dostavka{
+    top: 100px;
+    left: 550px;
 }
-.otziv1:hover {
-    transform: scale(1.2);
+.icon__dostavka-img{
+    width: 80px;
 }
-.otziv2{
-    padding-right: 250px;
-    transition: 1s;
+.text__dostavka{
+    width: 400px;
+    height: 100px;
+    top: 100px;
+    left: 680px;
 }
-.otziv2:hover {
-    transform: scale(1.2);
+h2{
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #a389b9;
+    line-height: 1.5;
 }
-.otziv3{
-    padding-right: 250px;
-    transition: 1s;
+.pochta{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #afa0bd;
 }
-.otziv3:hover {
-    transform: scale(1.2);
+.icon__dostavka--2{
+    top: 250px;
+    left: 550px;
 }
-.otziv4{
-    display: block;
-    text-align: center;
-    transition: 1s;
+.text__dostavka--2{
+    width: 400px;
+    height: 100px;
+    top: 250px;
+    left: 680px;
 }
-.otziv4:hover {
-    transform: scale(1.2);
-} */
+.icon__dostavka--3{
+    top: 400px;
+    left: 550px;
+}
+.text__dostavka--3{
+    width: 400px;
+    height: 100px;
+    top: 400px;
+    left: 680px;
+}
