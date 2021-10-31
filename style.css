@@ -85,7 +85,7 @@ h1 {
     height: 550px;
     text-align: center;
     box-shadow: 0 5px 10px #a791ba;
-    margin: 50px;
+    margin: 0px;
     display: none;
 }
 .image{
@@ -194,28 +194,28 @@ h1 {
     transition: 1s; 
 }
 .otziv__team--1:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--2:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--3:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--4:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--5:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--6:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--7:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .otziv__team--8:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .dostavka{
@@ -266,4 +266,72 @@ h2{
     height: 100px;
     top: 400px;
     left: 680px;
+}
+.text__reviews{
+    position: absolute;
+    width: 98px;
+    height: 98px;
+}
+.text__reviews--1{
+    width: 400px;
+    height: 100px;
+    top: 210px;
+    left: 580px;
+}
+.reviews{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #a389b9;
+}
+.reviews__instagram{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #afa0bd;
+}
+.reviews__insta{
+    text-decoration: none;
+    color: #a389b9;
+}
+.google__maps{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.google__maps--1{
+    top: 100px;
+    left: 200px;
+}
+.google__maps--text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 120px;
+    left: 840px;
+}
+.maps__text--1{
+    font-size: 16px;
+    line-height: 2.0;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #afa0bd;
+}
+.maps__text--2{
+    font-size: 16px;
+    line-height: 2.0;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #afa0bd;
+}
+.maps__text--3{
+    font-size: 18px;
+    line-height: 2.0;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #a389b9;
+}
+.maps__text--4{
+    font-size: 16px;
+    line-height: 2.0;
+    font-family: 'Roboto',Arial,sans-serif;
+    color: #afa0bd;
 }
